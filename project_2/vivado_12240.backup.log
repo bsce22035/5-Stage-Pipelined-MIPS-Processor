@@ -1,0 +1,286 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jun  7 13:08:48 2024
+# Process ID: 12240
+# Current directory: D:/Bsce Semester_4/projects/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12216 D:\Bsce Semester_4\projects\project_2\project_2.xpr
+# Log file: D:/Bsce Semester_4/projects/project_2/vivado.log
+# Journal file: D:/Bsce Semester_4/projects/project_2\vivado.jou
+#-----------------------------------------------------------start_gui
+open_project {D:/Bsce Semester_4/projects/project_2/project_2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+IINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/softwares/Xilinx/Vivado/2018.2/data/ip'.open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 799.918 ; gain = 77.484
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SingleCycleTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SingleCycleTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/MUX2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/SignExtender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtender
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/SingleCycleTop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCycleTop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/SingleCycleTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCycleTB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/softwares/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto e773b75ff0e847519d3d430bbad165b1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SingleCycleTB_behav xil_defaultlib.SingleCycleTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 32 for port In0 [D:/Bsce Semester_4/projects/project_2/SingleCycleTop.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.MUX2to1
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SignExtender
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.SingleCycleTop
+Compiling module xil_defaultlib.SingleCycleTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SingleCycleTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SingleCycleTB_behav -key {Behavioral:sim_1:Functional:SingleCycleTB} -tclbatch {SingleCycleTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source SingleCycleTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 310 ns : File "D:/Bsce Semester_4/projects/project_2/SingleCycleTB.v" Line 47
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SingleCycleTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 854.711 ; gain = 13.527
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  7 16:56:12 2024...
+[Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SingleCycleTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SingleCycleTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/MUX2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/SignExtender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtender
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/SingleCycleTop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCycleTop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/SingleCycleTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCycleTB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/softwares/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto e773b75ff0e847519d3d430bbad165b1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SingleCycleTB_behav xil_defaultlib.SingleCycleTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 32 for port In0 [D:/Bsce Semester_4/projects/project_2/SingleCycleTop.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.MUX2to1
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SignExtender
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.SingleCycleTop
+Compiling module xil_defaultlib.SingleCycleTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SingleCycleTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SingleCycleTB_behav -key {Behavioral:sim_1:Functional:SingleCycleTB} -tclbatch {SingleCycleTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source SingleCycleTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 310 ns : File "D:/Bsce Semester_4/projects/project_2/SingleCycleTB.v" Line 47
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SingleCycleTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 857.566 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SingleCycleTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SingleCycleTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/MUX2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/SignExtender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtender
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/SingleCycleTop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCycleTop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Bsce Semester_4/projects/project_2/SingleCycleTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCycleTB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/softwares/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto e773b75ff0e847519d3d430bbad165b1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SingleCycleTB_behav xil_defaultlib.SingleCycleTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 32 for port In0 [D:/Bsce Semester_4/projects/project_2/SingleCycleTop.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.MUX2to1
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SignExtender
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.SingleCycleTop
+Compiling module xil_defaultlib.SingleCycleTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SingleCycleTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SingleCycleTB_behav -key {Behavioral:sim_1:Functional:SingleCycleTB} -tclbatch {SingleCycleTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source SingleCycleTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 310 ns : File "D:/Bsce Semester_4/projects/project_2/SingleCycleTB.v" Line 47
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SingleCycleTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 865.703 ; gain = 7.184
+close [ open {D:/Bsce Semester_4/pipeline/project_1/1-bitPred.v} w ]
+add_files {{D:/Bsce Semester_4/pipeline/project_1/1-bitPred.v}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{D:/Bsce Semester_4/pipeline/project_1/1-bitPred.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/Bsce Semester_4/pipeline/project_1/1-bitPred.v}}
+close [ open {D:/Bsce Semester_4/pipeline/project_1/Predictor.v} w ]
+add_files {{D:/Bsce Semester_4/pipeline/project_1/Predictor.v}}
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  7 15:20:17 2024...

@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ALU.v" \
+"../../../../ALUControl.v" \
+"../../../../ControlUnit.v" \
+"../../../../DataMemory.v" \
+"../../../../InstructionMemory.v" \
+"../../../../MUX2to1.v" \
+"../../../../PCAdder.v" \
+"../../../../ProgramCounter.v" \
+"../../../../RegisterFile.v" \
+"../../../../SignExtender.v" \
+"../../../../SingleCycleTop.v" \
+"../../../../SingleCycleTB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

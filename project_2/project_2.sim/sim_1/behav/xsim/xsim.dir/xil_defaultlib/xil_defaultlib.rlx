@@ -1,0 +1,17 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+D:/Bsce Semester_4/projects/project_2/ALU.v,1717742456,verilog,,D:/Bsce Semester_4/projects/project_2/ALUControl.v,,ALU,,,,,,,,
+D:/Bsce Semester_4/projects/project_2/ALUControl.v,1717742518,verilog,,D:/Bsce Semester_4/projects/project_2/ControlUnit.v,,ALUControl,,,,,,,,
+D:/Bsce Semester_4/projects/project_2/ControlUnit.v,1717742584,verilog,,D:/Bsce Semester_4/projects/project_2/DataMemory.v,,ControlUnit,,,,,,,,
+D:/Bsce Semester_4/projects/project_2/DataMemory.v,1717743318,verilog,,D:/Bsce Semester_4/projects/project_2/InstructionMemory.v,,DataMemory,,,,,,,,
+D:/Bsce Semester_4/projects/project_2/InstructionMemory.v,1717749245,verilog,,D:/Bsce Semester_4/projects/project_2/MUX2to1.v,,InstructionMemory,,,,,,,,
+D:/Bsce Semester_4/projects/project_2/MUX2to1.v,1717748816,verilog,,D:/Bsce Semester_4/projects/project_2/PCAdder.v,,MUX2to1,,,,,,,,
+D:/Bsce Semester_4/projects/project_2/PCAdder.v,1717743452,verilog,,D:/Bsce Semester_4/projects/project_2/ProgramCounter.v,,PCAdder,,,,,,,,
+D:/Bsce Semester_4/projects/project_2/ProgramCounter.v,1717742333,verilog,,D:/Bsce Semester_4/projects/project_2/RegisterFile.v,,ProgramCounter,,,,,,,,
+D:/Bsce Semester_4/projects/project_2/RegisterFile.v,1717743802,verilog,,D:/Bsce Semester_4/projects/project_2/SignExtender.v,,RegisterFile,,,,,,,,
+D:/Bsce Semester_4/projects/project_2/SignExtender.v,1717743367,verilog,,D:/Bsce Semester_4/projects/project_2/SingleCycleTop.v,,SignExtender,,,,,,,,
+D:/Bsce Semester_4/projects/project_2/SingleCycleTB.v,1717743735,verilog,,,,SingleCycleTB,,,,,,,,
+D:/Bsce Semester_4/projects/project_2/SingleCycleTop.v,1717743530,verilog,,D:/Bsce Semester_4/projects/project_2/SingleCycleTB.v,,SingleCycleTop,,,,,,,,
+D:/Bsce Semester_4/projects/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jun  7 18:43:01 2024
+# Process ID: 3588
+# Current directory: C:/Users/fajar.pk/Desktop/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4836 C:\Users\fajar.pk\Desktop\project_2\project_2.xpr
+# Log file: C:/Users/fajar.pk/Desktop/project_2/vivado.log
+# Journal file: C:/Users/fajar.pk/Desktop/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/fajar.pk/Desktop/project_2/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 659.137 ; gain = 81.137
+update_compile_order -fileset sources_1
+exexit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  7 20:16:33 2024...
+0:18 ; elapsed = 00:00:10 . Memory (MB): peak = 658.801 ; gain = 22.543
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  7 20:16:38 2024...
