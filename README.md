@@ -4,7 +4,7 @@ A Verilog implementation of a classic MIPS 5-stage pipeline with instruction-lev
 
 ## Features
 
-###Implements the 5 pipeline stages:
+### Implements the 5 pipeline stages:
 
 - IF – Instruction Fetch
 
